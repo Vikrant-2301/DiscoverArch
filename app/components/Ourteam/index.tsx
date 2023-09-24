@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 
-const index = () => {
+const Ourteam = () => {
     return (
         <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 m-32'>
             <h2 className="text-4xl sm:text-65xl font-bold text-center">Our team belives you deserve <br /> only the best.</h2>
@@ -13,4 +13,4 @@ const index = () => {
     )
 }
 
-export default index;
+export default Ourteam;

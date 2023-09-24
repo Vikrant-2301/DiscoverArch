@@ -15,7 +15,8 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'About Us', href: '#aboutus-section', current: false },
-    { name: 'Services', href: '#services-section', current: false },
+    { name: 'Competition', href: '/Competition', current: false },
+    // { name: 'Services', href: '#services-section', current: false },
     { name: 'FAQ', href: '#faq-section', current: false },
     { name: 'Blog', href: '#blog-section', current: false },
     { name: 'Testimonial', href: '#testimonial-section', current: false },
@@ -40,7 +41,7 @@ const Navbar = () => {
 
                             <div className="flex flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
-                                    ARCHI+SHASTRA
+                                    DiscoverArch
                                 </Link>
                             </div>
 

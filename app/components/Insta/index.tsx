@@ -8,8 +8,8 @@ const Insta = () => {
             <div className=" mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
 
                 <div className="mx-auto imageContainer">
-                    <Image src="/images/insta/insta1.png" width={306} height={306} alt="instaOne" />
-                    <Link href={"https://instagram.com"} target="_blank">
+                    <Image src="/images/insta/ins1.svg" width={306} height={306} alt="instaOne" />
+                    <Link href={"https://www.instagram.com/archishastra_/"} target="_blank">
                         <button
                             className="hidden text-white font-semibold absolute z-10"
                             style={{
@@ -23,8 +23,8 @@ const Insta = () => {
                 </div>
 
                 <div className="mx-auto imageContainer">
-                    <Image src="/images/insta/insta2.png" width={306} height={306} alt="instaTwo" />
-                    <Link href={"https://instagram.com"} target="_blank">
+                    <Image src="/images/insta/ins2.svg" width={306} height={306} alt="instaTwo" />
+                    <Link href={"https://www.instagram.com/archishastra_/"} target="_blank">
                         <button
                             className="hidden text-white font-semibold absolute z-10"
                             style={{
@@ -38,8 +38,8 @@ const Insta = () => {
                 </div>
 
                 <div className="mx-auto imageContainer">
-                    <Image src="/images/insta/insta3.png" width={306} height={306} alt="instaThree" />
-                    <Link href={"https://instagram.com"} target="_blank">
+                    <Image src="/images/insta/in3.svg" width={306} height={306} alt="instaThree" />
+                    <Link href={"https://www.instagram.com/archishastra_/"} target="_blank">
                         <button
                             className="hidden text-white font-semibold absolute z-10"
                             style={{
@@ -53,8 +53,8 @@ const Insta = () => {
                 </div>
 
                 <div className="mx-auto imageContainer">
-                    <Image src="/images/insta/insta4.png" width={306} height={306} alt="instaFour" />
-                    <Link href={"https://instagram.com"} target="_blank">
+                    <Image src="/images/insta/ins4.jpg" width={306} height={306} alt="instaFour" />
+                    <Link href={"https://www.instagram.com/archishastra_/"} target="_blank">
                         <button
                             className="hidden text-white font-semibold absolute z-10"
                             style={{

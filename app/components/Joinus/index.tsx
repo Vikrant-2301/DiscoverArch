@@ -8,7 +8,7 @@ const Join = () => {
                 <div className="text-center">
                     <h3 className="text-blue text-lg font-normal tracking-widest">JOIN US</h3>
                     <h2 className="text-4xl sm:text-6xl font-bold my-6 leading-10"> Be the first to know when <br /> new competitions are launched!</h2>
-                    <p className="text-lightblack text-base font-normal">By becoming a part of our network, you'll gain exclusive access to innovative design challenges,<br />opportunities to showcase your talent, and a chance to make a positive impact on society through your creative solutions. </p>
+                    <p className="text-lightblack text-base font-normal">By becoming a part of our network, you will gain exclusive access to innovative design challenges,<br />opportunities to showcase your talent, and a chance to make a positive impact on society through your creative solutions. </p>
                 </div>
 
                 <div className="mx-auto max-w-4xl pt-5">

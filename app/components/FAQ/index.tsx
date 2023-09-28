@@ -20,7 +20,7 @@ const FAQ = () => {
                                     />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    Teams are welcome to add new members as long as the total team members do not exceed the specified limit (e.g., 3 members). However, participants are prohibited from swapping or removing any existing team members.<br /> To make changes, please send your request to [Organizer's Email] with the details of the new team member requested. Include your team&apos;s unique code in the email. <br />
+                                    Teams are welcome to add new members as long as the total team members do not exceed the specified limit (e.g., 3 members). However, participants are prohibited from swapping or removing any existing team members.<br /> To make changes, please send your request to [Organizers Email] with the details of the new team member requested. Include your team&apos;s unique code in the email. <br />
                                 </Disclosure.Panel>
                             </>
                         )}

@@ -26,11 +26,11 @@ const FirstPage = () => {
               </p>
             </div> */}
             <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
-              ARCHITOPIA: An Architect's Abode
+              ARCHITOPIA: An Architect Abode
             </h5>
             <p className="mb-5 text-gray-800">
               <span className="font-bold">ARCHITOPIA </span> is more than just a
-              competition; it's your canvas for creativity, inviting architects
+              competition; it is your canvas for creativity, inviting architects
               and design enthusiasts worldwide to reimagine the art of dwelling.
               Immerse yourself in a world of architectural innovation and
               sustainable design as you redefine the concept of home. This is

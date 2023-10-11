@@ -12,7 +12,7 @@ export default function page() {
       <FirstPage />
       <Brief />
       <Content />
-      <Steps />
+      {/* <Steps /> */}
       <Jury />
       <FAQ />
     </div>

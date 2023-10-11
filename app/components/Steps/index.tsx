@@ -4,7 +4,8 @@ import React, { useState } from "react";
 const Steps = () => {
   const [selectedStep, setSelectedStep] = useState(1);
 
-  const handleStepClick = (step: any) => {
+  const handleStepClick = (step: number) => {
+    // Specify the type as number
     setSelectedStep(step);
   };
 

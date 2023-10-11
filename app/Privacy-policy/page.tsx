@@ -3,19 +3,18 @@ import React from "react";
 export default function Page() {
   const emailAddress = "contact.discoverarch@gmail.com";
   const linkStyle = {
-    color: "blue", // Change the color to your desired color
-    textDecoration: "none", // Remove the default underline if desired
+    color: "blue",
+    textDecoration: "none",
   };
 
   return (
     <div className="my-44">
       <div>
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl sm:px-16 xl:px-48 lg:text-6xl dark:text-black ">
+        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl sm:px-16 xl:px-48 lg:text-6xl dark:text-black">
           Privacy Policy
         </h1>
-        <h3 className="mb-8 text-3xl font-noraml dark:text-black sm:px-16 xl:px-48">
-          {" "}
-          Your privacy is very important to DiscoverArch and for this reason
+        <h3 className="mb-8 text-3xl font-normal dark:text-black sm:px-16 xl:px-48">
+          Your privacy is very important to DiscoverArch, and for this reason,
           DiscoverArch collects and manages your personal data with the utmost
           attention, adopting specific security measures. Below, you will find
           the main information on how DiscoverArch processes your personal data
@@ -26,7 +25,7 @@ export default function Page() {
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           1. Who is the owner of the processing of your personal data?
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           In accordance with current Indian data protection legislation and the
           provisions of the Personal Data Protection Bill, 2019 (PDP Bill)
           regarding the protection of individuals in terms of processing their
@@ -35,7 +34,7 @@ export default function Page() {
           India is DiscoverArch. Email:{" "}
           <a href={`mailto:${emailAddress}`} style={linkStyle}>
             {emailAddress}
-          </a>{" "}
+          </a>
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           2. Which personal data does DiscoverArch process and for which
@@ -44,7 +43,7 @@ export default function Page() {
         <h6 className="mb-4 text-xl font-normal dark:text-black sm:px-16 xl:px-48">
           Data provided voluntarily.
         </h6>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           No personal data is required for the simple browsing on the Website.
           DiscoverArch processes the personal data you provide with the purpose
           to create the account you will use to access the reserved area of the
@@ -57,14 +56,14 @@ export default function Page() {
           promoted by DiscoverArch are: Full name, Mobile number, e-mail
           address, Date of birth, the role and the University of origin of the
           participant or of the individual members of the team, if the
-          participation to the competition will be carried out by a team.
+          participation in the competition will be carried out by a team.
           Billing information will be requested from the person who will be
           marked as Team Leader.
         </p>
         <h6 className="mb-4 text-xl font-normal dark:text-black sm:px-16 xl:px-48">
           DiscoverArch also processes the following personal data:
         </h6>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           <ul>
             <li>
               • the contact or personal data that you provide when you contact
@@ -82,7 +81,7 @@ export default function Page() {
           The personal data provided will be used exclusively for the following
           purposes:
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           <ul>
             <li>• Replying to your requests.</li>
             <li>• Managing contacts and sending communications.</li>
@@ -106,12 +105,12 @@ export default function Page() {
               DiscoverArch organizes.
             </li>
             <li>
-              • Publication of the competitions&apos; winning Team and its
-              components in a dedicated session of the Website.
+              • Publication of the competitions' winning Team and its components
+              in a dedicated session of the Website.
             </li>
           </ul>
         </p>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           Only with the prior express consent of the team leader and the
           participants to the competition, the personal data will be processed
           for sending commercial or promotional communications regarding the
@@ -121,7 +120,7 @@ export default function Page() {
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           Browsing data
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           DiscoverArch may process the personal data it collects while you
           browse the Website or use the services offered by the Website. In
           fact, the IT systems and software procedures used to operate our
@@ -140,7 +139,7 @@ export default function Page() {
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           These data are used exclusively for the following purposes:
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           <ul>
             <li>• allow access to and navigation of the website.</li>
             <li>• obtain statistical information on the use of our website.</li>
@@ -150,7 +149,7 @@ export default function Page() {
             </li>
           </ul>
         </p>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           Browsing data are only processed for the time strictly necessary to
           fulfil the above-mentioned purposes.
         </p>
@@ -158,7 +157,7 @@ export default function Page() {
           3. Legal bases of the processing, and mandatory or optional provision
           of data.
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           DiscoverArch processes your personal data when one or more of the
           following conditions envisaged by the GDPR occurs:
           <br /> <br />
@@ -167,11 +166,11 @@ export default function Page() {
           measures. This base legitimizes the personal data processing which
           takes place in the following activities:
         </p>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           <ul>
             <li>
               • conclusion and execution of the contract for the participation
-              in one of DiscoverArch&apos; s competitions.
+              in one of DiscoverArch's competitions.
             </li>
             <li>
               • registration on the Website and use of services reserved to
@@ -188,14 +187,14 @@ export default function Page() {
             </li>
           </ul>
         </p>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           The provision of your personal data for these activities is a
           contractual obligation. You are free to communicate your data or not,
-          but in the absence of the requested data it will not be possible for
+          but in the absence of the requested data, it will not be possible for
           us to conclude or execute the contract and respond to your requests
           and / or assign you the prizes of the competitions.
         </p>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           3.2. Processing is necessary to fulfil a legal obligation to which
           DiscoverArch is subject. In the event of the conclusion of a contract
           for the participation in a competition, the processing of your
@@ -204,32 +203,32 @@ export default function Page() {
           compliance with the tax provisions and other laws on the matter. The
           provision of your personal data for these activities is a contractual
           obligation. You are free to communicate your data to us or not, but in
-          the absence of the requested data it will not be possible for us to
+          the absence of the requested data, it will not be possible for us to
           conclude or execute the contract and fulfil the legal obligations
           imposed on DiscoverArch.
         </p>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           3.3. You have given DiscoverArch a specific consent. We will carry out
           the following processing only if you have given us your express
           consent:
           <br /> • receiving commercial or promotional communications about the
           initiatives, products and services offered by DiscoverArch and / or by
-          DiscoverArch&apos; s partners.
+          DiscoverArch's partners.
         </p>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           3.4. The treatment is carried out based on the legitimate interest of
           DiscoverArch. DiscoverArch will process user data for general
           assistance activities and to respond to requests for information
-          coming from users, or to respond to any reports, complaints and / or
+          coming from users or to respond to any reports, complaints and / or
           disputes.
         </p>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           It is a legitimate interest of DiscoverArch to respond to user
           requests, which also coincides with the legitimate interest of the
           users of the Website that expect a reply from DiscoverArch to their
           requests.
         </p>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           The legitimate interest of DiscoverArch thus identified can be
           considered prevalent on the fundamental rights and freedoms of the
           interested party, also by virtue of these reasonable expectations and
@@ -240,15 +239,15 @@ export default function Page() {
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           4. How do we process your personal data?
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           The processing is carried out by DiscoverArch through the use of IT
-          and / or telematic tools, designed to store, manage and transmit the
+          and / or telematic tools, designed to store, manage, and transmit the
           data for the aforementioned purposes.
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           5. Who will process your personal data?
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           The data processing will be carried out by personnel appointed and
           instructed by DiscoverArch, with procedures, technical and IT tools
           that guarantee the confidentiality and the safety of your personal
@@ -268,7 +267,7 @@ export default function Page() {
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           6. For how long do we keep your personal data and where?
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           The information and personal data that you provide through the
           Website, including the data freely provided by filling out the forms
           on the Website, will be kept for a limited period to fulfil the
@@ -277,19 +276,20 @@ export default function Page() {
           requests from the authority, conservation requirements established by
           law, or unless otherwise indicated sections of the Website. <br />
           <br />
-          <h5 className="mb-4 text-xl font-semibold dark:text-black">
-            Transfer of data abroad
-          </h5>
+        </p>
+        <h5 className="mb-4 text-xl font-semibold dark:text-black">
+          Transfer of data abroad
+        </h5>
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           DiscoverArch will not transfer your personal data abroad. <br />
-          <br />
-          Your data are processed at the Data Controller&apos;s operating
-          offices at Mongo dB and are stores within servers located in India, at
+          <br /> Your data are processed at the Data Controller's operating
+          offices at MongoDB and are stored within servers located in India, at
           the offices of the reference provider appointed as Data Processor.
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           7. Methods of exercising the rights of the interested party.
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           You can request information about the methods of processing and the
           exercise of your rights as an interested party, through the following
           methods: <br />
@@ -304,15 +304,15 @@ export default function Page() {
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           9. Changes to this privacy policy
         </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           DiscoverArch can modify or simply update, in whole or in part, this
           Privacy Policy. Any modification or update to the Privacy Policy will
           be available to all users in the Privacy section of the Website as
           soon as the updates are active and will be binding as soon as they are
           published on the Website in this section: the date of the last update
-          will also be indicated. We therefore invite you to periodically check
-          the contents of our Privacy Policy. If you do not intend to accept
-          these changes, you can stop using our website at any time.
+          will also be indicated. We, therefore, invite you to periodically
+          check the contents of our Privacy Policy. If you do not intend to
+          accept these changes, you can stop using our website at any time.
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           Date of wording: October 5, 2023

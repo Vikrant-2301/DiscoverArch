@@ -36,8 +36,8 @@ export default function Page() {
           (hereinafter - the Administrator).
           <br /> <br />
           1.3. TRADEMARK AND COPYRIGHT: All website contents are solely the
-          property of DiscoverArch (submitted competitions' contents copyrights
-          are subject to exclusive disclaimer). All rights are registered and
+          property of DiscoverArch, submitted competitions contents copyrights
+          are subject to exclusive disclaimer. All rights are registered and
           protected.
           <br /> <br />
           1.4. The Portal consists of an informative message about organized
@@ -46,7 +46,7 @@ export default function Page() {
           the Portal by the Administrator and addressed to a specific group of
           persons - Participants.
           <br /> <br />
-          1.5. According to these Terms, only Administrator's selected
+          1.5. According to these Terms, only Administrator selected
           Competitions are being placed and published on the Portal. All users
           are eligible to search, browse Competitions, as well as receive other
           services offered on the Portal. Additional terms, conditions, and
@@ -71,8 +71,7 @@ export default function Page() {
           <br /> <br />
           2.3. In the process of registration, the User indicates the data
           requested in the registration form - a name, e-mail address, and phone
-          number, as well as team member's data (together hereinafter - the
-          Data).
+          number, as well as team member data (together hereinafter - the Data).
           <br /> <br />
           2.4. The User irrevocably agrees that the Administrator transfers all
           Data to the competition organizers (see Privacy Policy). The
@@ -80,7 +79,7 @@ export default function Page() {
           by the User.
           <br /> <br />
           2.5. The Administrator disclaims any liability for the contents of the
-          User's Submission and expressed opinions in relation to Competitions,
+          User Submission and expressed opinions in relation to Competitions,
           products, or services on this Portal, as well as opinions expressed or
           published about Buildner Competitions outside the Portal.
         </p>
@@ -102,14 +101,14 @@ export default function Page() {
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
           4.1. The User has the right to become a donor of the Portal, with the
-          aim of "making architecture opportunities more accessible to
-          financially challenged students and talents globally".
+          aim of making architecture opportunities more accessible to
+          financially challenged students and talents globally.
           <br /> <br />
           4.2. When paying for the competition registration fee, the User can
           choose the option to join the donation program. To confirm the choice,
           before applying for the donation program, the User must confirm his
-          choice on the Portal by ticking the box "I agree to participate in the
-          donation program".
+          choice on the Portal by ticking the box ,I agree to participate in the
+          donation program.
           <br /> <br />
           4.3. The donation program is a monthly donation of an amount specified
           by the User to the Administrator. The amount of donations is
@@ -167,19 +166,19 @@ export default function Page() {
           <br /> <br />
           5.3. In order to prevent User violations and / or damage to the
           Administrator (for example, in case of DDoS-attacks or other hacker
-          attacks, etc.), the Administrator has the right to restrict the User's
-          or third parties' access to the Portal by blocking access to the
+          attacks, etc.), the Administrator has the right to restrict the User
+          or third parties access to the Portal by blocking access to the
           Portal.
           <br /> <br />
           5.4. The User agrees that the Administrator is not responsible for
           possible losses caused to the User due to taking measures to prevent
-          violations on the Portal related to the User's access to the site, as
+          violations on the Portal related to the User access to the site, as
           well as restriction / blocking of IP-addresses.
           <br /> <br />
           5.5. The User agrees to indemnify Administrator and Organizer from all
           claims, liability, damages, losses, costs, expenses and legal fees
           arising out of breach of these Terms and Conditions by the User or any
-          other liability arising out of the User's use of this Portal.
+          other liability arising out of the User use of this Portal.
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           6. USER INFORMATION AND CONSENT

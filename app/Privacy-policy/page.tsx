@@ -18,9 +18,9 @@ export default function Page() {
           DiscoverArch collects and manages your personal data with the utmost
           attention, adopting specific security measures. Below, you will find
           the main information on how DiscoverArch processes your personal data
-          collected through our platform DiscoverArch.org ("Website"). We invite
-          you to read the following Privacy Policy, as well as our Cookie Policy
-          and the General Conditions of Use of the Website.
+          collected through our platform DiscoverArch.org. We invite you to read
+          the following Privacy Policy, as well as our Cookie Policy and the
+          General Conditions of Use of the Website.
         </h3>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
           1. Who is the owner of the processing of your personal data?
@@ -105,7 +105,7 @@ export default function Page() {
               DiscoverArch organizes.
             </li>
             <li>
-              • Publication of the competitions' winning Team and its components
+              • Publication of the competitions winning Team and its components
               in a dedicated session of the Website.
             </li>
           </ul>
@@ -170,7 +170,7 @@ export default function Page() {
           <ul>
             <li>
               • conclusion and execution of the contract for the participation
-              in one of DiscoverArch's competitions.
+              in one of DiscoverArch competitions.
             </li>
             <li>
               • registration on the Website and use of services reserved to
@@ -213,7 +213,7 @@ export default function Page() {
           consent:
           <br /> • receiving commercial or promotional communications about the
           initiatives, products and services offered by DiscoverArch and / or by
-          DiscoverArch's partners.
+          DiscoverArch partners.
         </p>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           3.4. The treatment is carried out based on the legitimate interest of
@@ -282,7 +282,7 @@ export default function Page() {
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           DiscoverArch will not transfer your personal data abroad. <br />
-          <br /> Your data are processed at the Data Controller's operating
+          <br /> Your data are processed at the Data Controller operating
           offices at MongoDB and are stored within servers located in India, at
           the offices of the reference provider appointed as Data Processor.
         </p>

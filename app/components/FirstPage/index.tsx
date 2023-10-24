@@ -7,7 +7,7 @@ const FirstPage = () => {
         <div className="max-w-screen-xl mx-auto bg-white lg:flex sm:w-full">
           <div className="relative w-full lg:w-1/2 h-80 lg:h-screen">
             <img
-              src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="../images/competition/Architopia.jpeg"
               alt=""
               className="object-cover w-full h-full"
             />

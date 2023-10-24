@@ -11,18 +11,17 @@ const FAQ = () => {
   return (
     <div
       id="faq-section"
-      className="mx-auto max-w-7xl mb-60 py-14 lg:px-8 bg-faqblue rounded-2xl my-16 faq-bg"
+      className="mx-auto max-w-5xl mb-60 py-8 lg:px-8 bg-faqblue rounded-2xl my-16 faq-bg "
     >
-      <h3 className="text-xl font-normal text-white text-center mb-6">FAQ</h3>
-      <h2 className="text-4xl lg:text-6xl font-semibold text-center text-white">
-        Frequently asked <br /> questions.
+      <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-center text-white">
+        Frequently asked questions.
       </h2>
-      <div className="w-full px-4 pt-16">
+      <div className="w-full px-4 sm:px-6 pt-6 sm:pt-10 lg:pt-16">
         <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-4 px-6 mb-5">
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl sm:text-lg font-medium">
                   <span>Can I change team members after I register?</span>
                   <ChevronUpIcon
                     className={`${
@@ -49,7 +48,7 @@ const FAQ = () => {
           <Disclosure as="div" className="mt-2">
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl sm:text-lg font-medium">
                   <span>What are the modes of submissions?</span>
                   <ChevronUpIcon
                     className={`${
@@ -70,7 +69,7 @@ const FAQ = () => {
           <Disclosure as="div" className="mt-2">
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl sm:text-lg font-medium">
                   <span>
                     What is the limit or cap on the number of team members, and
                     can anyone participate individually?

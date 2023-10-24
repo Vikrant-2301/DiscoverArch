@@ -4,17 +4,17 @@ import Link from "next/link";
 const Insta = () => {
   return (
     <div className="mx-auto max-w-2xl  pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-      <div className=" mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div className=" mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
         <div className="mx-auto imageContainer">
           <Image
-            src="/images/insta/1.jpg"
+            src="/images/insta/DiscoverArchxFSAI.png"
             width={306}
             height={306}
             alt="instaOne"
           />
           <Link
             href={
-              "https://www.instagram.com/p/Cx5IWVly590/?igshid=NTc4MTIwNjQ2YQ=="
+              "https://www.instagram.com/p/CysWw8lSGEV/?utm_source=ig_web_copy_link"
             }
             target="_blank"
           >
@@ -37,14 +37,14 @@ const Insta = () => {
 
         <div className="mx-auto imageContainer">
           <Image
-            src="/images/insta/Soon.png"
+            src="/images/insta/1.jpg"
             width={306}
             height={306}
             alt="instaTwo"
           />
           <Link
             href={
-              "https://www.instagram.com/p/CxseFeJS43d/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+              "https://www.instagram.com/p/Cx5IWVly590/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
             }
             target="_blank"
           >
@@ -65,7 +65,7 @@ const Insta = () => {
           </Link>
         </div>
 
-        <div className="mx-auto imageContainer">
+        {/* <div className="mx-auto imageContainer">
           <Image
             src="/images/insta/in3.svg"
             width={306}
@@ -91,9 +91,9 @@ const Insta = () => {
               />
             </button>
           </Link>
-        </div>
+        </div> */}
 
-        <div className="mx-auto imageContainer">
+        {/* <div className="mx-auto imageContainer">
           <Image
             src="/images/insta/ins4.jpg"
             width={306}
@@ -119,7 +119,7 @@ const Insta = () => {
               />
             </button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

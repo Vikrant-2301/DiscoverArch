@@ -10,8 +10,8 @@ export default function page() {
   return (
     <div className="">
       <FirstPage />
-      <Brief />
       <Content />
+      <Brief />
       {/* <Steps /> */}
       <Jury />
       <FAQ />

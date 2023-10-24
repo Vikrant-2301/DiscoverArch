@@ -1,68 +1,84 @@
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/20/solid";
-
-const features = [
-  {
-    name: "Push to deploy.",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: "SSL certificates.",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: LockClosedIcon,
-  },
-  {
-    name: "Database backups.",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ServerIcon,
-  },
-];
-
-export const Content = () => {
+const Content = () => {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <div className="overflow-hidden bg-white mt-12 py-12 sm:py-2">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">
-                Deploy faster
-              </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                A better workflow
+              <h5 className="mb-4 text-3xl font-extrabold leading-none">
+                CHALLENGE
+              </h5>
+              <p className="mb-6 text-gray-900">
+                Participants are tasked with designing a residential project
+                that serves as the dream home for an architect. This includes
+                the main house, living spaces, bedrooms, and any additional
+                features you envision an architect's dream home would possess.
+                You also have the option to choose your idol architect and
+                design a dream house for them. Emphasize creativity, innovation,
+                and attention to detail.
               </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+              <h5 className="mb-4 text-3xl font-extrabold leading-none">
+                SITE SELECTION
+              </h5>
+              <p className="mb-6 text-gray-900">
+                Participants should select a suitable site within an urban or
+                suburban context of a maximum area of 1 acre. Accessibility,
+                proximity to public transport hubs, and the potential for urban
+                placemaking should be factored in, ensuring a seamless
+                integration into the community. Crucially, participants should
+                consult local by-laws and building codes.
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {features.map((feature) => (
-                  <div key={feature.name} className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
-                      <feature.icon
-                        className="absolute left-1 top-1 h-5 w-5 text-indigo-600"
-                        aria-hidden="true"
-                      />
-                      {feature.name}
-                    </dt>{" "}
-                    <dd className="inline">{feature.description}</dd>
-                  </div>
-                ))}
-              </dl>
+              <h5 className="mb-4 text-3xl font-extrabold leading-none">
+                JUDGING CRITERIA
+              </h5>
+              <h5 className="mb-2 text-sm font-extrabold leading-none">
+                ARCHITECTURAL AESTHETICS
+              </h5>
+              <p className="mb-6 text-gray-900">
+                Create a visually stunning and harmonious design that reflects
+                the unique tastes and personality of an architect.
+              </p>
+              <h5 className="mb-2 text-sm font-extrabold leading-none">
+                SPATIAL PLANNING
+              </h5>
+              <p className="mb-6 text-gray-900">
+                Optimize the use of space within the house to provide
+                functional, comfortable, and aesthetically pleasing spaces.
+              </p>
+              <h5 className="mb-2 text-sm font-extrabold leading-none">
+                INNOVATIVE FEATURES
+              </h5>
+              <p className="mb-6 text-gray-900">
+                Integrate innovative architectural elements and sustainable
+                features, to showcase your creativity.
+              </p>
+              <h5 className="mb-2 text-sm font-extrabold leading-none">
+                PRESENTATION QUALITY
+              </h5>
+              <p className="mb-6 text-gray-900">
+                Pay careful attention to the clarity, visual appeal, and
+                storytelling aspect of your sheets.
+              </p>
+            </div>
+            <div>
+              <h1 className="mb-4 text-3xl font-extrabold leading-none text-gray-900 ">
+                SUBMISSION
+              </h1>
+              <p className="mb-2  text-gray-900 ">
+                1. The project must be submitted using two (2) A1-sized sheets,
+                whether in digital or hand-drawn format. <br /> 2. Floor plans
+                should show furniture arrangements. <br /> 3. Site plan should
+                show the orientation and connectivity of the building. <br /> 4.
+                Elevations and sections of the building. <br /> 5. Materials and
+                innovative construction techniques. <br /> 6. All drawings
+                should be presented at a scale
+              </p>
             </div>
           </div>
           <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-            alt="Product screenshot"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+            src="../images/competition/Home.jpeg"
+            alt="Home"
+            className="hidden sm:block md:hidden lg:block xl:block w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}
             height={1442}
           />

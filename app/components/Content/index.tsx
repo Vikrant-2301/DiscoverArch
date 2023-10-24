@@ -12,10 +12,10 @@ const Content = () => {
                 Participants are tasked with designing a residential project
                 that serves as the dream home for an architect. This includes
                 the main house, living spaces, bedrooms, and any additional
-                features you envision an architect's dream home would possess.
-                You also have the option to choose your idol architect and
-                design a dream house for them. Emphasize creativity, innovation,
-                and attention to detail.
+                features you envision an architect dream home would possess. You
+                also have the option to choose your idol architect and design a
+                dream house for them. Emphasize creativity, innovation, and
+                attention to detail.
               </p>
               <h5 className="mb-4 text-3xl font-extrabold leading-none">
                 SITE SELECTION

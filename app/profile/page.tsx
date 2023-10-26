@@ -28,7 +28,7 @@ export default function ProfilePage() {
       ) : user ? (
         <div>
           <h1>Profile Page</h1>
-          <p>User Name: {user.username}</p>
+          <p>User Name:</p>
           {/* Add more user profile details as needed */}
         </div>
       ) : (

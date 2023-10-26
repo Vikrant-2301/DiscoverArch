@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Jury = () => {
   return (
     <div className="bg-wework py-32">
@@ -13,10 +15,12 @@ export const Jury = () => {
         <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
           <div>
             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-              <img
+              <Image
                 className="absolute object-cover w-full h-full rounded"
                 src="/images/jury/Nagendra.jpeg"
                 alt="Person"
+                width={300}
+                height={300}
               />
             </div>
             <div className="flex flex-col sm:text-center">
@@ -28,10 +32,12 @@ export const Jury = () => {
           </div>
           <div>
             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-              <img
+              <Image
                 className="absolute object-cover w-full h-full rounded"
                 src="/images/jury/Unknown.jpg"
                 alt="Person"
+                width={300}
+                height={300}
               />
             </div>
             <div className="flex flex-col sm:text-center">
@@ -41,10 +47,12 @@ export const Jury = () => {
           </div>
           <div>
             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-              <img
+              <Image
                 className="absolute object-cover w-full h-full rounded"
                 src="/images/jury/Unknown.jpg"
                 alt="Person"
+                width={400}
+                height={400}
               />
             </div>
             <div className="flex flex-col sm:text-center">
@@ -54,10 +62,12 @@ export const Jury = () => {
           </div>
           <div>
             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-              <img
+              <Image
                 className="absolute object-cover w-full h-full rounded"
                 src="/images/jury/Unknown.jpg"
                 alt="Person"
+                width={400}
+                height={400}
               />
             </div>
             <div className="flex flex-col sm:text-center">

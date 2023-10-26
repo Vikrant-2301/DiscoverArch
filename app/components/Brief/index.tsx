@@ -1,12 +1,16 @@
+import Image from "next/image";
+
 const Brief = () => {
   return (
     <div className="px-2 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
         <div>
-          <img
+          <Image
             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-            src="../images/competition/House.jpeg"
-            alt=""
+            src="/../images/competition/House.jpeg"
+            alt="Brief"
+            width={1000}
+            height={1000}
           />
         </div>
         <div className="lg:pl-10">

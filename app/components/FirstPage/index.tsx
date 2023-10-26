@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 const FirstPage = () => {
   const router = useRouter();
 
@@ -12,10 +13,12 @@ const FirstPage = () => {
       <div className="min-h-screen flex items-center justify-center">
         <div className="max-w-screen-xl mx-auto bg-white lg:flex sm:w-full">
           <div className="relative w-full lg:w-1/2 h-80 lg:h-screen">
-            <img
-              src="../images/competition/Architopia.jpeg"
-              alt=""
+            <Image
+              src="/../images/competition/Architopia.jpeg"
+              alt="Architopia"
               className="object-cover w-full h-full"
+              width={800}
+              height={800}
             />
             <svg
               className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"

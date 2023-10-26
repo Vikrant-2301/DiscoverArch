@@ -35,7 +35,7 @@ export const Jury = () => {
               />
             </div>
             <div className="flex flex-col sm:text-center">
-              <p className="text-lg font-bold">"</p>
+              <p className="text-lg font-bold">Jury</p>
               <p className="mb-5 text-xs text-gray-800">Jury</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ export const Jury = () => {
               />
             </div>
             <div className="flex flex-col sm:text-center">
-              <p className="text-lg font-bold">"</p>
+              <p className="text-lg font-bold">Jury</p>
               <p className="mb-5 text-xs text-gray-800">Jury</p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export const Jury = () => {
               />
             </div>
             <div className="flex flex-col sm:text-center">
-              <p className="text-lg font-bold">"</p>
+              <p className="text-lg font-bold">Jury</p>
               <p className="mb-5 text-xs text-gray-800">Jury</p>
             </div>
           </div>
@@ -70,4 +70,3 @@ export const Jury = () => {
     </div>
   );
 };
-export default Jury;

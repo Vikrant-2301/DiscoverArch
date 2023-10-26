@@ -1,6 +1,5 @@
 import React from "react";
 import FAQ from "../components/FAQ";
-import Register from "../components/Register";
 import FirstPage from "../components/FirstPage";
 import { Jury } from "../components/Jury";
 import Content from "../components/Content";
@@ -13,7 +12,6 @@ export default function page() {
       <Content />
       <Brief />
       <Jury />
-      <Register />
       <FAQ />
     </div>
   );

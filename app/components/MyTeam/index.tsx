@@ -44,7 +44,7 @@ export const MyTeam = () => {
         <div className="flex">
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/Pratham.png"
+            src="/images/wework/team/Pratham.jpg"
             alt="Person"
           />
           <div className="flex flex-col justify-center">
@@ -121,7 +121,7 @@ export const MyTeam = () => {
         <div className="flex">
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Girish.jpeg"
+            src="/images/wework/team/Girish.jpg"
             alt="Person"
           />
           <div className="flex flex-col justify-center">

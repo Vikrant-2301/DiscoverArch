@@ -1,6 +1,12 @@
+"use client";
 import React from "react";
-
+import { useRouter } from "next/navigation";
 const FirstPage = () => {
+  const router = useRouter();
+
+  const handleRegister = () => {
+    router.push("/Register");
+  };
   return (
     <div className="first">
       <div className="min-h-screen flex items-center justify-center">
@@ -39,6 +45,7 @@ const FirstPage = () => {
             <div className="flex items-center">
               <button
                 type="submit"
+                onClick={handleRegister}
                 className="inline-flex items-center justify-center h-12 px-6 mr-6 font-semibold tracking-wide bg-blue text-white transition duration-200  shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none rounded-full hover:bg-hoblue"
               >
                 Register Now

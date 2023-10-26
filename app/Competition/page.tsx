@@ -8,7 +8,7 @@ import Brief from "../components/Brief";
 
 export default function page() {
   return (
-    <div className="my-40 py-20">
+    <div className="">
       <FirstPage />
       <Content />
       <Brief />

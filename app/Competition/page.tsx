@@ -1,8 +1,6 @@
 import React from "react";
 import FAQ from "../components/FAQ";
 import Dedicated from "../components/Dedicated";
-import Ourteam from "../components/Ourteam";
-import MultipleItems from "../components/Wework";
 import Register from "../components/Register";
 
 export default function page() {
@@ -61,7 +59,6 @@ export default function page() {
           </div>
         </div>
       </section>
-      <MultipleItems />
       <Register />
       <FAQ />
     </div>

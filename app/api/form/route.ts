@@ -40,10 +40,11 @@ export async function POST(request: NextRequest) {
       version: "v4",
     });
 
-    // Modify the range and spreadsheetId according to your Google Sheets
-    const range = "A2:Z2"; // Update this to the desired range (7 columns for student data + 1 for payment ID, for one submission)
+    // Define the range and spreadsheetId
+    const range = "A2:Z2"; // Update this to the desired range (A to Z columns)
     const spreadsheetId = process.env.GOOGLE_SHEET_ID;
 
+    // Create an array for student values
     const studentValues = students.map((student) => [
       student.email,
       student.name,
@@ -53,11 +54,12 @@ export async function POST(request: NextRequest) {
       student.collegeName,
     ]);
 
-    // Flatten student values into a single array
-    const allStudentData = studentValues.reduce((acc, studentData) => [...acc, ...studentData], []);
+    // Append an empty string for each column between F and Z (inclusive) to make sure paymentData is in column Z
+    const emptyColumns = Array.from({ length: 18 }, () => '');
+    studentValues[0].push(...emptyColumns);
 
-    // Add the payment ID to the end
-    allStudentData.push(paymentData.razorpay_payment_id);
+    // Add the payment ID to the end (now it's in the Z column)
+    studentValues[0].push(paymentData.razorpay_payment_id);
 
     // Append the values to the Google Sheet
     const response = await sheets.spreadsheets.values.append({
@@ -65,7 +67,7 @@ export async function POST(request: NextRequest) {
       range: range,
       valueInputOption: "USER_ENTERED",
       requestBody: {
-        values: [allStudentData],
+        values: studentValues,
       },
     });
 

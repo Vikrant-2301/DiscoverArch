@@ -51,11 +51,11 @@ const BuyProduct = () => {
           console.log("Payment failed");
         }
       },
-      prefill: {
-        name: "DiscoverArch",
-        email: "discoverarch@gmail.com",
-        contact: "7973617761",
-      },
+      // prefill: {
+      //   name: "DiscoverArch",
+      //   email: "discoverarch@gmail.com",
+      //   contact: "7973617761",
+      // },
     };
 
     const paymentObject = new window.Razorpay(options);

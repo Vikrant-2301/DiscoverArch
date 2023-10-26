@@ -28,7 +28,7 @@ function Register() {
     const key = "rzp_test_BFxkLQxfMEgTnu";
     const totalAmount = numStudents * 10000; // Assuming 100 rupees per student
     setLoadingPayment(true);
-    const response = await fetch("http://localhost:3000/api/razorpay", {
+    const response = await fetch("/api/razorpay", {
       method: "POST",
       body: JSON.stringify({ totalAmount: totalAmount }), // Pass the totalAmount
       headers: {
@@ -97,11 +97,11 @@ function Register() {
           console.log("Payment failed");
         }
       },
-      prefill: {
-        name: "DiscoverArch",
-        email: "discoverarch@gmail.com",
-        contact: "7973617761",
-      },
+      // prefill: {
+      //   name: "DiscoverArch",
+      //   email: "discoverarch@gmail.com",
+      //   contact: "7973617761",
+      // },
     };
 
     const paymentObject = new window.Razorpay(options);

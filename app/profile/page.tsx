@@ -29,7 +29,6 @@ export default function ProfilePage() {
         <div>
           <h1>Profile Page</h1>
           <p>User Name:</p>
-          {/* Add more user profile details as needed */}
         </div>
       ) : (
         <p>Error fetching user data.</p>

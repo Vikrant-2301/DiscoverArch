@@ -13,7 +13,7 @@ const BuyProduct = () => {
   const makePayment = async () => {
     const key = "rzp_test_BFxkLQxfMEgTnu";
 
-    const response = await fetch("http://localhost:3000/api/razorpay");
+    const response = await fetch("/api/razorpay");
     const { order } = await response.json();
 
     const options = {

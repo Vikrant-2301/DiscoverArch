@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const MyTeam = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -42,10 +44,12 @@ export const MyTeam = () => {
       </div>
       <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-5">
         <div className="flex">
-          <img
+          <Image
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="/images/wework/team/Pratham.jpg"
-            alt="Person"
+            alt="Pratham"
+            width={200}
+            height={200}
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Pratham Garg</p>
@@ -53,10 +57,12 @@ export const MyTeam = () => {
           </div>
         </div>
         <div className="flex">
-          <img
+          <Image
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="/images/wework/team/Rinku.jpeg"
             alt="Person"
+            width={200}
+            height={200}
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Rinku Pradhan</p>
@@ -64,10 +70,12 @@ export const MyTeam = () => {
           </div>
         </div>
         <div className="flex">
-          <img
+          <Image
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="/images/wework/team/Vikrant.png"
             alt="Person"
+            width={200}
+            height={200}
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Vikrant Yadav</p>
@@ -75,10 +83,12 @@ export const MyTeam = () => {
           </div>
         </div>
         <div className="flex">
-          <img
+          <Image
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="/images/wework/team/Gaurav.jpeg"
             alt="Person"
+            width={200}
+            height={200}
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Gaurav Pal</p>
@@ -86,10 +96,12 @@ export const MyTeam = () => {
           </div>
         </div>
         <div className="flex">
-          <img
+          <Image
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="/images/wework/team/Raghav.jpg"
             alt="Person"
+            height={200}
+            width={200}
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Raghav Bamral</p>
@@ -97,10 +109,12 @@ export const MyTeam = () => {
           </div>
         </div>
         <div className="flex">
-          <img
+          <Image
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="/images/wework/team/Mayur.jpeg"
             alt="Person"
+            height={200}
+            width={200}
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Mayur S</p>
@@ -108,10 +122,12 @@ export const MyTeam = () => {
           </div>
         </div>
         <div className="flex">
-          <img
+          <Image
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="/images/wework/team/Omm.jpeg"
             alt="Person"
+            height={200}
+            width={200}
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Omm Dhal Mahapatra </p>
@@ -119,10 +135,12 @@ export const MyTeam = () => {
           </div>
         </div>
         <div className="flex">
-          <img
+          <Image
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="/images/wework/team/Girish.jpg"
             alt="Person"
+            height={200}
+            width={200}
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Girish Kumar</p>
@@ -130,10 +148,12 @@ export const MyTeam = () => {
           </div>
         </div>
         <div className="flex">
-          <img
+          <Image
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="/images/wework/team/Tania.jpg"
             alt="Person"
+            height={200}
+            width={200}
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Tania Rajput</p>

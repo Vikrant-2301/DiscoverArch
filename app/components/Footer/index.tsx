@@ -10,7 +10,7 @@ interface ProductType {
 const products: ProductType[] = [
   {
     id: 1,
-    link: ["Home", "Aboutus", "About", "Contact"],
+    link: ["Home", "About", "Competition", "Contact"],
   },
   {
     id: 2,

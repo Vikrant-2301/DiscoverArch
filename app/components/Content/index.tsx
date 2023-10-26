@@ -77,12 +77,13 @@ const Content = () => {
               </p>
             </div>
           </div>
-          <Image
-            src="/../images/competition/Home.jpeg"
+          <img
+            src="../images/competition/Home.jpeg"
             alt="Home"
             className="hidden sm:block md:hidden lg:block xl:block w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}
             height={1442}
+            loading="lazy"
           />
         </div>
       </div>

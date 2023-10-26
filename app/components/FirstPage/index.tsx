@@ -13,12 +13,11 @@ const FirstPage = () => {
       <div className="min-h-screen flex items-center justify-center">
         <div className="max-w-screen-xl mx-auto bg-white lg:flex sm:w-full">
           <div className="relative w-full lg:w-1/2 h-80 lg:h-screen">
-            <Image
-              src="/../images/competition/Architopia.jpeg"
+            <img
+              src="../images/competition/Architopia.jpeg"
               alt="Architopia"
               className="object-cover w-full h-full"
-              width={800}
-              height={800}
+              loading="lazy"
             />
             <svg
               className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"

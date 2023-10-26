@@ -28,6 +28,7 @@ export default function Home() {
       {/* <Manage /> */}
       {/* <FAQ /> */}
       {/* <Testimonials /> */}
+      {/* <Form /> */}
       <Articles />
       <Joinus />
       <Insta />

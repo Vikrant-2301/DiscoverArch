@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const MyTeam = () => {
   return (
@@ -38,128 +39,163 @@ export const MyTeam = () => {
           Design Enthusiasts & Innovators
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          A Passionate Community of Design Enthusiasts and Innovators Shaping
-          the Future of Architecture
+          A Passionate Community of Design Enthusiasts & Innovators Shaping the
+          Future of Architecture
         </p>
       </div>
       <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-5">
-        <div className="flex">
-          <Image
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Pratham.jpg"
-            alt="Pratham"
-            width={200}
-            height={200}
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Pratham Garg</p>
-            <p className="text-sm text-gray-800">Co-Founder</p>
+        <Link href={"https://www.linkedin.com/in/pratham-garg-068138263/"}>
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Pratham.jpg"
+              alt="Pratham"
+              width={200}
+              height={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Pratham Garg</p>
+              <p className="text-sm text-gray-800">Co-Founder</p>
+            </div>
           </div>
-        </div>
-        <div className="flex">
-          <Image
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Rinku.jpeg"
-            alt="Person"
-            width={200}
-            height={200}
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Rinku Pradhan</p>
-            <p className="text-sm text-gray-800">Co-Founder</p>
+        </Link>
+        <Link href={"https://www.linkedin.com/in/rinku-pradhan-7149491b0/"}>
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Rinku.jpeg"
+              alt="Person"
+              width={200}
+              height={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Rinku Pradhan</p>
+              <p className="text-sm text-gray-800">Co-Founder</p>
+            </div>
           </div>
-        </div>
-        <div className="flex">
-          <Image
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Vikrant.png"
-            alt="Person"
-            width={200}
-            height={200}
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Vikrant Yadav</p>
-            <p className="text-sm text-gray-800">Co-Founder</p>
+        </Link>
+        <Link href={"https://www.linkedin.com/in/vikrantyadav2301/"}>
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Vikrant.png"
+              alt="Person"
+              width={200}
+              height={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Vikrant Yadav</p>
+              <p className="text-sm text-gray-800">Co-Founder</p>
+            </div>
           </div>
-        </div>
-        <div className="flex">
-          <Image
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Gaurav.jpeg"
-            alt="Person"
-            width={200}
-            height={200}
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Gaurav Pal</p>
-            <p className="text-sm text-gray-800">Co-Founder</p>
+        </Link>
+        <Link href={"https://www.linkedin.com/in/gaurav-pal-5a1984270/"}>
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Gaurav.jpeg"
+              alt="Person"
+              width={200}
+              height={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Gaurav Pal</p>
+              <p className="text-sm text-gray-800">Co-Founder</p>
+            </div>
           </div>
-        </div>
-        <div className="flex">
-          <Image
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Raghav.jpg"
-            alt="Person"
-            height={200}
-            width={200}
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Raghav Bamral</p>
-            <p className="text-sm text-gray-800">Co-Founder</p>
+        </Link>
+        <Link href={"https://www.linkedin.com/in/raghav-bamral-4243a722a/"}>
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Raghav.jpg"
+              alt="Person"
+              height={200}
+              width={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Raghav Bamral</p>
+              <p className="text-sm text-gray-800">Co-Founder</p>
+            </div>
           </div>
-        </div>
-        <div className="flex">
-          <Image
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Mayur.jpeg"
-            alt="Person"
-            height={200}
-            width={200}
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Mayur S</p>
-            <p className="text-sm text-gray-800">Marketing Head</p>
+        </Link>
+        <Link href={"https://www.linkedin.com/in/mayur-s-353584285/"}>
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Mayur.jpeg"
+              alt="Person"
+              height={200}
+              width={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Mayur S</p>
+              <p className="text-sm text-gray-800">Marketing Head</p>
+            </div>
           </div>
-        </div>
-        <div className="flex">
-          <Image
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Omm.jpeg"
-            alt="Person"
-            height={200}
-            width={200}
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Omm Dhal Mahapatra </p>
-            <p className="text-sm text-gray-800">Graphic Designer</p>
+        </Link>
+        <Link
+          href={"https://www.linkedin.com/in/omm-dhal-mahapatra-333640228/"}
+        >
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Omm.jpeg"
+              alt="Person"
+              height={200}
+              width={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Omm Dhal Mahapatra </p>
+              <p className="text-sm text-gray-800">Graphic Designer</p>
+            </div>
           </div>
-        </div>
-        <div className="flex">
-          <Image
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Girish.jpg"
-            alt="Person"
-            height={200}
-            width={200}
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Girish Kumar</p>
-            <p className="text-sm text-gray-800">Graphic Designer</p>
+        </Link>
+        <Link href={"https://www.linkedin.com/in/girish-kumar-18764b22a/"}>
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Girish.jpg"
+              alt="Person"
+              height={200}
+              width={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Girish Kumar</p>
+              <p className="text-sm text-gray-800">Graphic Designer</p>
+            </div>
           </div>
-        </div>
-        <div className="flex">
-          <Image
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="/images/wework/team/Tania.jpg"
-            alt="Person"
-            height={200}
-            width={200}
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Tania Rajput</p>
-            <p className="text-sm text-gray-800">Content Writer</p>
+        </Link>
+        <Link href={"https://www.linkedin.com/in/tania-rajput-5babb123b/"}>
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Tania.jpg"
+              alt="Person"
+              height={200}
+              width={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Tania Rajput</p>
+              <p className="text-sm text-gray-800">Content Writer</p>
+            </div>
           </div>
-        </div>
+        </Link>
+        <Link href={"https://www.linkedin.com/in/sonal-poddar-84a69b27b/"}>
+          <div className="flex">
+            <Image
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="/images/wework/team/Sonal.jpg"
+              alt="Person"
+              height={200}
+              width={200}
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-lg font-bold">Sonal Poddar</p>
+              <p className="text-sm text-gray-800">Content Writer</p>
+            </div>
+          </div>
+        </Link>
       </div>
     </div>
   );

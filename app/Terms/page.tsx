@@ -7,7 +7,7 @@ export default function Page() {
     textDecoration: "none",
   };
   return (
-    <div className="my-44">
+    <div className=" px-4 py-2 md:my-4">
       <div>
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl sm:px-16 xl:px-48 lg:text-6xl dark:text-black ">
           Website Terms & Conditions
@@ -206,21 +206,21 @@ export default function Page() {
           legal address of the Administrator at the time of initiating legal
           proceedings.
         </p>
-        <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
-          8. CONCLUSION
+        <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48 uppercase">
+          8. Refund Policy: No Returns/Refunds
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
-          8.1. The Administrator has the right to unilaterally revise, amend or
-          change the Terms, supplement, change, limit, and expand the functional
-          possibilities of the Portal, as well as unilaterally change the
-          payment procedure and prices without any special notice to the User.
+          The Administrator has a strict no returns/refunds policy. Once a user
+          has made a payment for a competition registration fee or any other
+          paid services, the payment is non-refundable. The Administrator is not
+          liable for any dissatisfaction or issues arising from the use of the
+          Portal.
           <br /> <br />
-          8.2. When making changes in the current wording of the Terms, the date
-          of the last amendment is indicated.
-          <br /> <br />
-          8.3. The new wording of the Terms shall enter into force from the
-          moment of its posting on the Portal.
-          <br /> <br />
+        </p>
+        <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
+          9. CONCLUSION
+        </h5>
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
           8.4. The User is obliged to get acquainted with the current wording of
           the Terms before each use of the Portal services. Use of the Portal
           after the entry into force of the new wording of the Terms means that

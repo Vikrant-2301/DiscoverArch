@@ -20,9 +20,9 @@ const products: ProductType[] = [
 
 const footer = () => {
   return (
-    <div className="bg-black -mt-40">
-      <div className="mx-auto max-w-2xl pt-48 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="my-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
+    <div className="bg-black">
+      <div className="mx-auto max-w-2xl pt-12 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+        <div className="my-12 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
           {/* COLUMN-1 */}
 
           <div className="col-span-4 md:col-span-12 lg:col-span-4">
@@ -92,7 +92,7 @@ const footer = () => {
           {/* CLOUMN-4 */}
 
           <div className="col-span-4 md:col-span-4 lg:col-span-4">
-            <div className="flex gap-2 mt-10 text-white">
+            <div className="flex gap-2  text-white">
               <Image
                 src={"/images/footer/email.svg"}
                 alt="email-icon"
@@ -106,12 +106,40 @@ const footer = () => {
                 contact.discoverarch@gmail.com
               </a>
             </div>
+            <div className="my-10">
+              <div
+                style={{
+                  position: "relative",
+                  paddingBottom: "56.25%",
+                  height: 0,
+                  overflow: "hidden",
+                }}
+              >
+                <iframe
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                  }}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.7263993671354!2d75.70256857505855!3d31.25599656015716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1703593357684!5m2!1sen!2sin"
+                  width="600"
+                  height="450"
+                  loading="lazy"
+                ></iframe>
+              </div>
+              <p className="text-white mt-4 text-sm">
+                Lovely Professional University, Jalandhar - Delhi G.T. Road,
+                Phagwara, Punjab 144411, India
+              </p>
+            </div>
           </div>
         </div>
 
         {/* All Rights Reserved */}
 
-        <div className="py-10 lg:flex items-center justify-between border-t border-t-bordertop">
+        <div className="py-2 lg:flex items-center justify-between border-t border-t-bordertop">
           <h4 className="text-offwhite text-sm text-center lg:text-start font-normal">
             @2023 - All Rights Reserved by{" "}
             <Link href="https://discoverarch.org/" target="_blank">
@@ -119,17 +147,13 @@ const footer = () => {
               DiscoverArch
             </Link>
           </h4>
-          <div className="flex gap-5 mt-5 lg:mt-0 justify-center lg:justify-start">
+          <div className="flex gap-5 mt-2 lg:mt-0 justify-center lg:justify-start">
             <h4 className="text-offwhite text-sm font-normal">
-              <Link href="/Privacy-policy" target="_blank">
-                Privacy policy
-              </Link>
+              <Link href="/Privacy-policy">Privacy policy</Link>
             </h4>
-            <div className="h-5 bg-bordertop w-0.5"></div>
+            <div className="h-5 bg-border top w-0.5"></div>
             <h4 className="text-offwhite text-sm font-normal">
-              <Link href="/Terms" target="_blank">
-                Terms & conditions
-              </Link>
+              <Link href="/Terms">Terms & conditions</Link>
             </h4>
           </div>
         </div>

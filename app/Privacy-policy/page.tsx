@@ -8,7 +8,7 @@ export default function Page() {
   };
 
   return (
-    <div className="my-44">
+    <div className="px-4 py-2 md:my-20 ">
       <div>
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl sm:px-16 xl:px-48 lg:text-6xl dark:text-black">
           Privacy Policy
@@ -277,7 +277,7 @@ export default function Page() {
           law, or unless otherwise indicated sections of the Website. <br />
           <br />
         </p>
-        <h5 className="mb-4 text-xl font-semibold dark:text-black">
+        <h5 className="mb-4 text-xl font-semibold lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 dark:text-black">
           Transfer of data abroad
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">

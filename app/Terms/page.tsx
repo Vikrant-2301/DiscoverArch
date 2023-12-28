@@ -97,52 +97,10 @@ export default function Page() {
           in Rupees through Paytm, by Credit card, Debit card, UPI, Net Banking.
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
-          4. DONATION PROGRAM
+          4. OBLIGATIONS OF THE USER
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
-          4.1. The User has the right to become a donor of the Portal, with the
-          aim of making architecture opportunities more accessible to
-          financially challenged students and talents globally.
-          <br /> <br />
-          4.2. When paying for the competition registration fee, the User can
-          choose the option to join the donation program. To confirm the choice,
-          before applying for the donation program, the User must confirm his
-          choice on the Portal by ticking the box ,I agree to participate in the
-          donation program.
-          <br /> <br />
-          4.3. The donation program is a monthly donation of an amount specified
-          by the User to the Administrator. The amount of donations is
-          determined by the User himself or by choosing the amount of donations
-          offered on the Portal.
-        </p>
-        <h5 className="mb-4 text-xl font-semibold dark:text-black sm:px-16 xl:px-48">
-          4.4. Special donations conditions:
-        </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
-          4.4.1. The User can stop his participation in the donation program at
-          any time without prior notice and without any explanation.
-          <br /> <br />
-          4.4.2. Donations are non-refundable;
-          <br /> <br />
-          4.4.3. Administrator is entitled to use the donations at its
-          discretion;
-          <br /> <br />
-          4.4.4. Donations are not subject to VAT. According to the laws and
-          regulations, it is not possible for the Administrator to send an
-          invoice for receiving donations, so the Administrator will only send
-          an informative e-mail about receiving the first donation.
-          Administrator sends information about other donation payments only
-          upon request;
-          <br /> <br />
-          4.4.5. Participation in the donation program does not give the User
-          any additional benefits and privileges for participating in
-          competitions.
-        </p>
-        <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
-          5. OBLIGATIONS OF THE USER
-        </h5>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
-          5.1. The User undertakes not to use automatic or other programs to
+          4.1. The User undertakes not to use automatic or other programs to
           gain access to the Portal, including unauthorized access. Without the
           consent of the Administrator, the use, distribution, copying and / or
           retrieval of any materials or information (including Classifieds,
@@ -150,64 +108,64 @@ export default function Page() {
           automatically (using software means) is not permitted.
         </p>
         <h5 className="mb-4 text-xl font-semibold dark:text-black sm:px-16 xl:px-48">
-          5.2. In addition, the User undertakes:
+          4.2. In addition, the User undertakes:
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
-          5.2.1. Not to copy, reproduce, modify, distribute or provide any
+          4.2.1. Not to copy, reproduce, modify, distribute or provide any
           information posted on the Portal without the written consent of the
           Administrator;
           <br /> <br />
-          5.2.2. Not to take any actions that may cause a disproportionate load
+          4.2.2. Not to take any actions that may cause a disproportionate load
           on the Portal infrastructure;
           <br /> <br />
-          5.2.3. Not to obstruct the operation of the Portal, as well as not to
+          4.2.3. Not to obstruct the operation of the Portal, as well as not to
           obstruct the operation of automatic systems or processes, with the
           intention to block or restrict access to the Portal.
           <br /> <br />
-          5.3. In order to prevent User violations and / or damage to the
+          4.3. In order to prevent User violations and / or damage to the
           Administrator (for example, in case of DDoS-attacks or other hacker
           attacks, etc.), the Administrator has the right to restrict the User
           or third parties access to the Portal by blocking access to the
           Portal.
           <br /> <br />
-          5.4. The User agrees that the Administrator is not responsible for
+          4.4. The User agrees that the Administrator is not responsible for
           possible losses caused to the User due to taking measures to prevent
           violations on the Portal related to the User access to the site, as
           well as restriction / blocking of IP-addresses.
           <br /> <br />
-          5.5. The User agrees to indemnify Administrator and Organizer from all
+          4.5. The User agrees to indemnify Administrator and Organizer from all
           claims, liability, damages, losses, costs, expenses and legal fees
           arising out of breach of these Terms and Conditions by the User or any
           other liability arising out of the User use of this Portal.
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
-          6. USER INFORMATION AND CONSENT
+          5. USER INFORMATION AND CONSENT
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
-          6.1. By exercising access to the Portal, the User consents to receive
+          5.1. By exercising access to the Portal, the User consents to receive
           advertising information posted on the Portal by third parties. The
           User understands and agrees that the Administrator does not determine
           the content of such information and is not responsible for it.
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
-          7. CLAIMS AND DISPUTE RESOLUTION PROCEDURE
+          6. CLAIMS AND DISPUTE RESOLUTION PROCEDURE
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
-          7.1. If the User has complaints about the services or operation of the
+          6.1. If the User has complaints about the services or operation of the
           Portal, then the User is invited to first contact the Administrator,
           describing the situation and sending an e-mail to:{" "}
           <a href={`mailto:${emailAddress}`} style={linkStyle}>
             {emailAddress}
           </a>
           <br /> <br />
-          7.2. If disputes cannot be resolved through negotiations, they shall
+          6.2. If disputes cannot be resolved through negotiations, they shall
           be resolved in accordance with the laws and regulations applicable in
           India. The jurisdiction of the court shall be determined based on the
           legal address of the Administrator at the time of initiating legal
           proceedings.
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48 uppercase">
-          8. Refund Policy: No Returns/Refunds
+          7. Refund Policy: No Returns/Refunds
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
           The Administrator has a strict no returns/refunds policy. Once a user
@@ -218,14 +176,14 @@ export default function Page() {
           <br /> <br />
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">
-          9. CONCLUSION
+          8. CONCLUSION
         </h5>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
-          8.4. The User is obliged to get acquainted with the current wording of
-          the Terms before each use of the Portal services. Use of the Portal
-          after the entry into force of the new wording of the Terms means that
-          the User agrees to it and the Terms in the new wording are applicable
-          to User in full.
+          The User is obliged to get acquainted with the current wording of the
+          Terms before each use of the Portal services. Use of the Portal after
+          the entry into force of the new wording of the Terms means that the
+          User agrees to it and the Terms in the new wording are applicable to
+          User in full.
           <br /> <br />
         </p>
         <h5 className="mb-4 text-xl font-bold dark:text-black sm:px-16 xl:px-48">

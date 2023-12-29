@@ -10,11 +10,11 @@ interface ProductType {
 const products: ProductType[] = [
   {
     id: 1,
-    link: ["Home", "About", "Competition", "Contact"],
+    link: [" ", " ", " ", " "],
   },
   {
     id: 2,
-    link: ["Help", "Resources", "Application", "Team"],
+    link: [" ", " ", " ", " "],
   },
 ];
 
@@ -35,10 +35,10 @@ const footer = () => {
             />
             <div className="flex gap-4">
               <div className="footer-icons">
-                <Link href="https://facebook.com">
+                <Link href="https://www.linkedin.com/company/discoverarch/">
                   <Image
-                    src={"/images/footer/vec.svg"}
-                    alt="facebook"
+                    src={"/images/footer/linkedin.svg"}
+                    alt="linkedin"
                     width={15}
                     height={20}
                   />
@@ -116,22 +116,15 @@ const footer = () => {
                 }}
               >
                 <iframe
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "100%",
-                  }}
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.7263993671354!2d75.70256857505855!3d31.25599656015716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1703593357684!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d266.40192004678613!2d75.70911752613324!3d31.254768795195808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f413eac38c1%3A0xa8b08b6cda81c857!2sUv%20pg!5e0!3m2!1sen!2sin!4v1703864904471!5m2!1sen!2sin"
                   width="600"
                   height="450"
                   loading="lazy"
                 ></iframe>
               </div>
               <p className="text-white mt-4 text-sm">
-                Lovely Professional University, Jalandhar - Delhi G.T. Road,
-                Phagwara, Punjab 144411, India
+                House Number 2, UV PG Hardaspur Road, Village Hardaspur,
+                Phagwara,Punjab, 144411
               </p>
             </div>
           </div>

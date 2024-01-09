@@ -8,8 +8,8 @@ const instance = new Razorpay({
 });
 
 export async function POST(req, res) {
-  console.log(process.env.RAZORPAY_KEY_ID);
-  console.log(process.env.RAZORPAY_SECRET);
+  // console.log(process.env.RAZORPAY_KEY_ID);
+  // console.log(process.env.RAZORPAY_SECRET);
   const body = await req.json();
   const totalAmount = body.totalAmount;
   const payment_capture = 1;

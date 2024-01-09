@@ -34,7 +34,7 @@ function Register() {
   const makePayment = async (e) => {
     e.preventDefault();
     try {
-      const key = "rzp_test_BFxkLQxfMEgTnu";
+      const key = "rzp_live_8oRm9OX8RCbPFd";
       const totalAmount = numStudents * 10000;
       setLoadingPayment(true);
       const response = await fetch("/api/razorpay", {
@@ -173,14 +173,14 @@ function Register() {
   };
 
   return (
-    <section id="#register" className="bg-white text-[#010101]">
+    <section id="#register" className="bg-white text-[#010101] ">
       {loadingPayment || loadingUpdate ? <Loader /> : null}
       <div className="py-2 px-4 mx-auto max-w-2xl lg:py-2">
         <div className="mb-2 flex justify-center leading-8 items-center flex-col ">
           <h2 className=" text-3xl font-bold text-gray-900">Register Now</h2>
           <h2 className="text-md text-base">Per Student Fees: ₹100</h2>
         </div>
-        <form action="#" onSubmit={makePayment}>
+        <form action="#" onSubmit={makePayment} className="">
           <div className="w-full ">
             <label
               htmlFor="num-students"

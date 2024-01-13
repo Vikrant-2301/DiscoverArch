@@ -106,7 +106,7 @@ const footer = () => {
                 contact.discoverarch@gmail.com
               </a>
             </div>
-            <div className="my-10">
+            {/* <div className="my-10">
               <div
                 style={{
                   position: "relative",
@@ -126,7 +126,7 @@ const footer = () => {
                 House Number 2, UV PG Hardaspur Road, Village Hardaspur,
                 Phagwara,Punjab, 144411
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 

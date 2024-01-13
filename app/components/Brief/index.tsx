@@ -23,7 +23,7 @@ const Brief = () => {
           <p className="mb-6 text-gray-900">
             1. English is the designated language for all drawing-related
             communication. <br />
-            2. The deadline for submission is January 15, 2024; submissions
+            2. The deadline for submission is 21 April, 2024; submissions
             received after this date will not be considered. <br />
             3. The registration fee is non-refundable. <br />
             4. Under no circumstances should participants contact the jury.{" "}
@@ -39,8 +39,8 @@ const Brief = () => {
             Important Dates:
           </h5>
           <p className="mb-6 text-gray-900">
-            Last date for Registration: 10 December, 2023 <br /> Last date for
-            Submission: 10 January, 2024
+            Last date for Registration: 10 March, 2024 <br /> Last date for
+            Submission: 21 April, 2024
           </p>
           <hr className="mb-5 border-gray-300" />
         </div>

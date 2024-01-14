@@ -6,6 +6,7 @@ import { Bars3Icon } from "@heroicons/react/24/outline";
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from "./Contactus";
+import { useRouter } from "next/navigation";
 
 interface NavigationItem {
   name: string;
@@ -29,6 +30,12 @@ function classNames(...classes: string[]) {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+
+  const router = useRouter();
+
+  const handleRegister = () => {
+    router.push("/Register");
+  };
 
   return (
     <Disclosure as="nav" className="navbar">
@@ -69,7 +76,14 @@ const Navbar = () => {
                 </div>
               </div>
               {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
-              <Contactusform />
+              <button
+                type="submit"
+                onClick={handleRegister}
+                className="hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white"
+              >
+                Register Now
+              </button>
+              {/* <Contactusform /> */}
             </div>
 
             {/* DRAWER FOR MOBILE VIEW */}

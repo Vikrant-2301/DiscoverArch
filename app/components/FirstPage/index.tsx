@@ -53,7 +53,7 @@ const FirstPage = () => {
                 Register Now
               </button>
               <a
-                href="/Brief.pdf"
+                href="/Architopia Brief.pdf"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >

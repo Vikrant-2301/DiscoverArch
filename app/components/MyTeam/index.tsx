@@ -182,7 +182,7 @@ export const MyTeam = () => {
               </div>
             </div>
           </Link>
-          <Link href={"https://www.linkedin.com/in/sonal-poddar-84a69b27b/"}>
+          {/* <Link href={"https://www.linkedin.com/in/sonal-poddar-84a69b27b/"}>
             <div className="flex">
               <Image
                 className="object-cover w-20 h-20 mr-4 rounded-full shadow"
@@ -194,6 +194,21 @@ export const MyTeam = () => {
               <div className="flex flex-col justify-center">
                 <p className="text-lg font-bold">Sonal Poddar</p>
                 <p className="text-sm text-gray-800">Content Writer</p>
+              </div>
+            </div>
+          </Link> */}
+          <Link href={"www.https://www.linkedin.com/in/saksham1612/"}>
+            <div className="flex">
+              <Image
+                className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+                src="/images/wework/team/Saksham.jpeg"
+                alt="Person"
+                height={200}
+                width={200}
+              />
+              <div className="flex flex-col justify-center">
+                <p className="text-lg font-bold">Saksham Srivastava</p>
+                <p className="text-sm text-gray-800">Code Weaver</p>
               </div>
             </div>
           </Link>

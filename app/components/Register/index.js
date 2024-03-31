@@ -180,7 +180,7 @@ function Register() {
           <h2 className=" text-3xl font-bold text-gray-900">Register Now</h2>
           <h2 className="text-md text-base">Per Student Fees: ₹200</h2>
         </div>
-        <form action="#" onSubmit={makePayment} className="">
+        {/* <form action="#" onSubmit={makePayment} className="">
           <div className="w-full ">
             <label
               htmlFor="num-students"
@@ -331,7 +331,10 @@ function Register() {
               ? "Submitting Details..."
               : "Continue Application"}
           </button>
-        </form>
+        </form> */}
+        <div className="bg-grey py-4 px-22 text-center font-bold text-4xl my-4">
+          <h1> Registration Closed !</h1>
+        </div>
       </div>
       <Toaster />
     </section>

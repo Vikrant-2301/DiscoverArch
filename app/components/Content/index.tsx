@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Content = () => {
   return (
-    <div className="overflow-hidden bg-white mt-12 py-12 sm:py-2">
+    <div className="overflow-hidden bg-[#CCE6FF] py-12 sm:py-2">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
@@ -87,6 +87,13 @@ const Content = () => {
           />
         </div>
       </div>
+      {/* <div className="absolute bottom-0 w-full ">
+        <img
+          className="w-full translate-y-[4px] z-0"
+          src="/public/images/tilt-section.svg"
+        />
+        <div className="w-full h-[100px] md:h-[200px] translate-y-[2px] bg-[#F8B700]"></div>
+      </div> */}
     </div>
   );
 };

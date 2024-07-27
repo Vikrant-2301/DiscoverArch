@@ -8,7 +8,14 @@ export default function Page() {
   };
 
   return (
-    <div className="px-4 py-2 md:my-20 ">
+    <div className="px-4 py-2 mt-24 md:my-20 ">
+      <img
+        className="rounded-b-[3.4rem] opacity absolute w-full h-full object-cover top-0 left-0"
+        src="/images/squares.svg" // Updated image path
+        style={{ zIndex: -50 }}
+        alt="bg-image"
+      />
+
       <div>
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl sm:px-16 xl:px-48 lg:text-6xl dark:text-black">
           Privacy Policy

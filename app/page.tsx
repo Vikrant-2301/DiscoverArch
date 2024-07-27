@@ -13,7 +13,9 @@ export default function Home() {
       <MyTeam />
       <Articles />
       <Joinus />
-      <Insta />
+      {/* <Insta /> */}
     </main>
   );
 }
+
+// className="bg-[#c9e3ff] "

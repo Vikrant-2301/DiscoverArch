@@ -31,6 +31,6 @@
     "app/api/Form/route.js",
     "app/api/Form/route.js",
     "app/components/Register/index.js"
-  ],
+, "app/components/Navbar/Navbar.tsx", "app/components/Navbar/index.jsx", "app/components/Navbar/index.jsx", "app/components/Navbar/navHead.jsx"  ],
   "exclude": ["node_modules"]
 }
